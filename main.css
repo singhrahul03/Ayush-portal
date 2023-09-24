@@ -4,9 +4,9 @@ html {
 
 .carousel-control-prev,
 .carousel-control-next {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: aqua;
     /* Adjust the opacity here (0.5 for 50% transparency) */
-    color: white;
+    color: black;
     /* Text color */
 }
 
