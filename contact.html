@@ -1,27 +1,52 @@
-<form>
-    <div>
-        CONTACT US.
-
-    </div>
-    <br>
-    <div class="form-group">
-      <label for="exampleFormControlInput1">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-    </div>
-    <br>
-    <div class="form-group">
-      <label for="exampleFormControlSelect1">What is your query related to?</label>
-      <select class="form-control" id="exampleFormControlSelect1">
-        <option>Startup</option>
-        <option>Investment</option>
-        <option>Content</option>
-        <option>Investors</option>
-      </select>
-    </div>
-   <br>
-    <div class="form-group">
-      <label for="exampleFormControlTextarea1">Describe your problem here : </label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-    <button class="btn btn-primary">Submit</button>
-  </form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Your Website</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- Add any additional CSS or JavaScript libraries you need here -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <!-- Add more navigation links if needed -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-form">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">What is your query related to?</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Startup</option>
+                            <option>Investment</option>
+                            <option>Content</option>
+                            <option>Investors</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Describe your problem here:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
